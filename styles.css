@@ -77,5 +77,13 @@ p {
     justify-self: center;
 }
 
+button {
+    height: 35px;
+    width: 100px;
+    align-self: center;
+    justify-self: center;
+    font-size: 16px;
+}
+
 
 
