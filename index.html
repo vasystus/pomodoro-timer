@@ -8,15 +8,33 @@
     <title>Pomodoro</title>
 </head>
 <body>
-    
-    <div class ="work">
-        <p>WORK:</p>
-         <!-- time -->
-         <p id="work_mins">25</p>
-         <p id="semicolon">:</p>
-         <p id="seconds">00</p>
-         <button id="b_work">Start</button>
+  <h1>Po-mo-do-ro!</h1>
+
+    <div class ="container">
+       <p class="work">Work:</p>
+       <p class="cycles">Cycles:</p>
+       <p class="break">Break:</p>
+<!-- Timer for Work -->
+      <div class="work_timer">
+        <p>25</p>
+        <p>:</p>
+        <p>00</p>
+      </div>
+
+<!-- Counter for Cycles -->
+      <p id="counter" class="counter">0</p>
+<!-- Timer for Break -->
+      <div class="break_timer">
+        <p>25</p>
+        <p>:</p>
+        <p>00</p>
+      </div>
+
+      <button class="start">Start</button>
+      <button class="stop">Stop</button>
+      <button class="reset">Reset</button>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
