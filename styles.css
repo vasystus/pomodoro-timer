@@ -1,21 +1,24 @@
 * {
    box-sizing: border-box;
 }
-  
+
 body {
    height: 100%;
    font-family: Inter, sans-serif;
-  
+   background-color: #c5c6c7;
+   color:#66FCF1;
+   font-size: bold;
+
 }
 h1 {
     text-align: center;
-    color: #E27D60;
+    color: #45A29E;
     
 }
 
 h1:hover {
     animation: shake 0.8s;
-    animation-iteration-count: infinite;
+   
   }
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
@@ -39,9 +42,11 @@ h1:hover {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    background-color: #85dcb8;
-    border: 2px solid #85dcb8;
+    background-color: #1f231f;
+    border: 2px solid #66FCF1;
     border-radius: 10px;
+    background-image: url("https://images.unsplash.com/photo-1517167685284-96a27681ad75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBhdHRlcm58ZW58MHx8MHxibGFja3w%3D&auto=format&fit=crop&w=500&q=60");
+    background-blend-mode: color;
 }
 /* work_area */
 .work {
@@ -111,16 +116,18 @@ button {
     font-size: 16px;
     font-weight: bold;
     transition-duration: 0.4s;
-    background-color: #E8A87C;
-    border: 2px solid #E8A87C; 
+    color: #C5C6C7;
+    background-color: #0b0c10;
+    border: 2px solid #45A29E; 
     border-radius: 12px;
 }
 
 button:hover {
     animation: shake 0.8s;
-    background-color: #E27D60;
-    border: 2px solid #E27D60; 
+    background-color: #66FCF1;
+    border: 2px solid #45A29E; 
     border-radius: 12px;
+    color: #0b0c10;
   }
 @keyframes shake {
     0% { transform: translate(1px, 1px) rotate(0deg); }
