@@ -21,10 +21,10 @@ start.addEventListener("click", function() {
 // reset all functions
 reset.addEventListener("click",function() {
   workMins.innerText = 25;
-  workSecs.innerText = 00;
+  workSecs.innerText = "00";
 
   breakMins.innerText = 5;
-  breakSecs.innerText = 00;
+  breakSecs.innerText = "00";
   document.getElementById("counter").innerText = 0;
   stopInterval()
   startTimer = undefined;
