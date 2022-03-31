@@ -13,7 +13,7 @@ body {
 h1 {
     text-align: center;
     color: #45A29E;
-    
+    margin-top: 45px;
 }
 
 h1:hover {
@@ -47,6 +47,10 @@ h1:hover {
     border-radius: 10px;
     background-image: url("https://images.unsplash.com/photo-1517167685284-96a27681ad75?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHBhdHRlcm58ZW58MHx8MHxibGFja3w%3D&auto=format&fit=crop&w=500&q=60");
     background-blend-mode: color;
+    position: absolute;
+    top: 25%;
+    left: 15%;
+    /* transform: translateY(-50%); */
 }
 /* work_area */
 .work {
